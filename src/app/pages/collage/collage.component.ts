@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductosService } from '../../services/productos.service';
+
 
 @Component({
   selector: 'app-collage',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollageComponent implements OnInit {
 
-  constructor() { }
+  constructor(public productosService:ProductosService) { }
 
   ngOnInit(): void {
   }
