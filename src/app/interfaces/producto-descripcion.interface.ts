@@ -1,10 +1,13 @@
+
 export interface ProductoDescrip {
   categoria?: string;
-  desc1?: string;
+  envios?: string;
+  img?: string;
+  img2?: string;
   precio?: string;
+  precio2?: string;
   producto?: string;
   resumen?: string;
-  subtitulo1?: string;
-  subtitulo2?: string;
-  img?:string;
+  titulo?: string;
+  titulo2?: string;
 }
