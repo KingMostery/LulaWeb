@@ -16,7 +16,7 @@ export class InfoPaginaService {
   }
 
   private CargarInfo() {
-    console.log('Informacion de la pagina');
+    
 
     //leer el archivo JSON
     this.http
@@ -35,7 +35,7 @@ export class InfoPaginaService {
       )
       .subscribe((resp:any) => {
         this.materiales = resp;
-        console.log(resp);
+        //console.log(resp);
       });
   }
 }
