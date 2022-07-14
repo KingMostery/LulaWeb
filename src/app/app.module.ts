@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { CollageComponent } from './pages/collage/collage.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemsComponent } from './pages/items/items.component';
+import { SearchComponent } from './pages/search/search.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ItemsComponent } from './pages/items/items.component';
     FooterComponent,
     CollageComponent,
     AboutComponent,
-    ItemsComponent
+    ItemsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
